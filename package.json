@@ -1,0 +1,52 @@
+{
+  "name": "tz-areas",
+  "version": "1.0.0",
+  "description": "An array of time zone areas",
+  "repository": "shinnn/tz-areas",
+  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+  "scripts": {
+    "pretest": "eslint --fix --config @shinnn/node --global window --ignore-path .gitignore .",
+    "test": "node --strong_mode --throw-deprecation --track-heap-objects test.js | tap-spec"
+  },
+  "license": "MIT",
+  "jsnext:main": "index.jsnext.js",
+  "files": [
+    "index.js",
+    "index.jsnext.js"
+  ],
+  "keywords": [
+    "tz",
+    "time",
+    "zone",
+    "zones",
+    "timezone",
+    "timezones",
+    "list",
+    "area",
+    "areas",
+    "iana",
+    "africa",
+    "america",
+    "antarctica",
+    "arctic",
+    "asia",
+    "atlantic",
+    "australia",
+    "europe",
+    "indian",
+    "pacific",
+    "browser",
+    "client-side"
+  ],
+  "devDependencies": {
+    "@shinnn/eslint-config-node": "^2.0.0",
+    "array-duplicated": "^1.0.1",
+    "array-uniq": "^1.0.2",
+    "eslint": "^2.12.0",
+    "get-tz-ids": "^1.0.0",
+    "require-from-string": "^1.2.0",
+    "rollup": "^0.31.2",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.5.1"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "tz-areas",
+  "description": "An array of time zone areas",
+  "keywords": [
+    "tz",
+    "time",
+    "zone",
+    "zones",
+    "timezone",
+    "timezones",
+    "list",
+    "area",
+    "areas",
+    "iana",
+    "africa",
+    "america",
+    "antarctica",
+    "arctic",
+    "asia",
+    "atlantic",
+    "australia",
+    "europe",
+    "indian",
+    "pacific"
+  ],
+  "main": "browser.js",
+  "moduleType": "globals",
+  "homepage": "https://github.com/shinnn/tz-areas",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shinnn/tz-areas.git"
+  },
+  "authors": [
+    "Shinnosuke Watanabe (https://github.com/shinnn)"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "*.js",
+    "*.json",
+    "*.yml",
+    "coverage",
+    "node_modules"
+  ]
+}
