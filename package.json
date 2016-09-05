@@ -6,7 +6,7 @@
   "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
   "scripts": {
     "pretest": "eslint --fix --config @shinnn/node --global window --ignore-path .gitignore .",
-    "test": "node --strong_mode --throw-deprecation --track-heap-objects test.js | tap-spec"
+    "test": "node --throw-deprecation --track-heap-objects test.js | tap-spec"
   },
   "license": "MIT",
   "jsnext:main": "index.jsnext.js",

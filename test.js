@@ -1,4 +1,4 @@
-'use strong';
+'use strict';
 
 const alphaSort = require('alpha-sort');
 const arrayUniq = require('array-uniq');
