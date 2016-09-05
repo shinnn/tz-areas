@@ -3,7 +3,7 @@
 [![NPM version](https://img.shields.io/npm/v/tz-areas.svg)](https://www.npmjs.com/package/tz-areas)
 [![Bower version](https://img.shields.io/bower/v/tz-areas.svg)](https://github.com/shinnn/tz-areas/releases)
 [![Build Status](https://travis-ci.org/shinnn/tz-areas.svg?branch=master)](https://travis-ci.org/shinnn/tz-areas)
-[![devDependency Status](https://david-dm.org/shinnn/tz-areas/dev-status.svg)](https://david-dm.org/shinnn/tz-areas#info=devDependencies)
+[![devDependencies Status](https://david-dm.org/shinnn/tz-areas/dev-status.svg)](https://david-dm.org/shinnn/tz-areas?type=dev)
 
 An array of [time zone areas](https://en.wikipedia.org/wiki/Tz_database#Area)
 
